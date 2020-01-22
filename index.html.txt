@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LandingPage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+	</head>
+<body>
+	<header id="header" class="my-flex">
+		
+		<nav id="nav-bar">
+                <ul id="header-ul">
+                	  <li id="logo-li">
+                      	<img id="header-img" src="https://sqparq.dm.files.1drv.com/y4mw5dAMFOjh7oxaxh5rhRj6zQc7SBXRlkcqxOgYg19fEqIprpRfV9ubMGNRHrzX4h0E0gvhpaeyOOlofA7p-bOWzRCos95JkXVp4iIemGUAuCJ70wx6qmype23TbEYBW3cLJu85JUWbCVy1slOU04DvZR7N1zAalQIEtDqbMGlZCuE5RKOHEWLxF2G4HRfyou_fwpTAzh5xExQAnZWzp-pOg?" alt="My logo">
+                      </li>
+                      <li class="my-list">
+                      <a class="nav-link ulwrapper" href="#contact">Contact
+                      </a>
+                      </li>
+                      <li class="my-list">
+                      <a class="nav-link" href="#pricing">Pricing
+                      </a>
+                      </li>
+                      <li class="my-list">
+                      <a class="nav-link" href="#demo">Demo
+                      </a>
+                      </li>
+                </ul>
+            </nav> 
+	</header>
+    <section id="demo">
+    	<h1>Demo</h1>
+    	  <div id="demo-section"> 
+              <p>Please follow us in <a href="https://youtube.com" target="_blank">youtube</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <iframe id ="video" src="https://www.youtube.com/embed/ugf5k0J8C3I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>  
+              </section>
+
+              <section id="pricing">
+              	<h1>Pricing</h1>
+              	<div class="my-flex2">
+                   <div>           
+                     <ul class="section-ul2">
+                      <li class="li-header">pricing1</li>
+                      <li class="my-list2">test1</li>
+                      <li class="my-list2">test2</li>
+                      <li class="my-list2">test3</li>
+                    </ul>
+                   </div>
+                   <div>
+                    <ul class="section-ul2">
+                      <li class="li-header">pricing2</li>
+                      <li class="my-list2">test1</li>
+                      <li class="my-list2">test2</li>
+                      <li class="my-list2">test3</li>
+                    </ul>
+                   </div>
+                   <div>
+                    <ul class="section-ul2">
+                      <li class="li-header">pricing3</li>
+                      <li class="my-list2">test1</li>
+                      <li class="my-list2">test2</li>
+                      <li class="my-list2">test3</li>
+                    </ul>
+                   </div>
+                </div>
+                 </section>
+
+                 <section id="contact">
+                 	<h1>Contact</h1>
+           <form id="form" action=" https://www.freecodecamp.com/email-submit">
+              <input type="email" id="email" name="email" placeholder="enter your email here..." required>
+        <input type="submit" id="submit">
+          </form>
+                 </section>
+
+</body>
+</html>
